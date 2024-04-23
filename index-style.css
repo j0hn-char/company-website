@@ -17,13 +17,20 @@ nav button {
     background-color: #222337;
     outline: auto;
     outline-color:aliceblue;
-    outline-width: 2px;
+    outline-width: 1px; 
+    height: 40px;
 }
 
 .btn-txt {
     color: aliceblue;
+    font-family: sans-serif;
+    font-size:medium;
 }
 
 #other-inf {
     color: aliceblue;
+}
+
+button > a {
+    text-decoration: none;
 }
