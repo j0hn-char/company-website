@@ -74,7 +74,3 @@ footer {
 footer > article {
     transform: translateY(-25%);
 }
-
-.logo {
-    align-items: center;
-}
