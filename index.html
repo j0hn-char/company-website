@@ -17,10 +17,11 @@
                 display: grid;
                 grid-template-columns: repeat(3,  1fr);
                 gap: 50px;
+                transform: translateX(-1.5%);
             }
         </style>
 
-    <title>XYZ</title>
+    <title>XYZ Homepage</title>
 
     </head>
 
@@ -29,7 +30,7 @@
         <header>
             <nav>
                 <ul>
-                </div style="text-align: center"> <img src="./assets/cropped-favicon-site-icon.webp" alt="XYZ logo" title="XYZ logo" height="100" width="100" /> </div>
+                    <img src="./assets/cropped-favicon-site-icon.webp" alt="XYZ logo" title="XYZ logo" height="100" width="100" />
                     <div class="container">
                         <button><a href="./other-pages/services.html">
                             <div class="btn-txt">
@@ -60,13 +61,16 @@
                     
                     <h2>Company XYZ</h2>
                     
-                    <p>We honor meritocracy, quality and a good working environment
-                        A company, abbreviated as co., is a legal entity representing an association of legal people, whether natural, juridical or a mixture of both, with a specific objective. Company members share a common purpose and unite to achieve specific, declared goals. 
-                        Over time, companies have evolved to have following features: "separate legal personality, limited liability, transferable shares, investor ownership, and a managerial hierarchy". The company, as an entity, was created by the state which granted the privilege of incorporation.
-                    </p>
+                    <div>
+                        <p>We honor meritocracy, quality and a good working environment
+                            A company, abbreviated as co., is a legal entity representing an association of legal people, whether natural, juridical or a mixture of both, with a specific objective. Company members share a common purpose and unite to achieve specific, declared goals. 
+                            Over time, companies have evolved to have following features: "separate legal personality, limited liability, transferable shares, investor ownership, and a managerial hierarchy". The company, as an entity, was created by the state which granted the privilege of incorporation.
+                        </p>
+                    </div>
 
+                <div class="space"></div>
                 <center>
-                    <video width="1000" height="500" controls muted loop autoplay preload="metadata">
+                    <video width="800" height="450" controls muted loop autoplay preload="metadata" style="border-radius: 20px;">
                         <source src="https://youtu.be/5VtUJvmuXkg?si=uI3E6yl84UeJGrkb" type="video/YouTube">
                         <source src="./assets/PM Group _ XYZ Reality - Engineering Grade Augmented Reality.mp4" type="video/mp4">
                         Your browser does not support this video tag.
@@ -79,7 +83,9 @@
 
             <section id="about">
                 <h2>About us</h2>
-                <p>XYZ is a production company. Our product is of great quality very strong and has a very good taste. We work to be the best there is in what we do which is trying to make the best product we can</p>
+                <div>
+                    <p>XYZ is a production company. Our product is of great quality very strong and has a very good taste. We work to be the best there is in what we do which is trying to make the best product we can</p>
+                </div>
             </section>
 
             <section>
@@ -90,9 +96,12 @@
         <footer>
 
             <article>
-                <h3 id="other-inf">Other info</h3>
+                <div class="space"></div>
+                <h3 id="other-inf" style="text-align: center; font-family: sans-serif;">Other info</h3>
 
-                <p>Please contact us if any problems arise!</p>
+                <p>
+                    Please contact us if any problems arise!
+                </p>
             </article>
 
         </footer>
