@@ -5,7 +5,8 @@ p {
 }
 
 body {
-    background-color:#222337;
+    background-image: linear-gradient(#222337, #20213f, #595ca0);
+    /*background-image: radial-gradient(circle, #343760, #222337);*/
 }
 
 main {
@@ -18,7 +19,6 @@ h2 {
 }
 
 nav button {
-    background-color:#2e2e49;
     outline: auto;
     outline-color:aliceblue;
     outline-width: 1px; 
@@ -27,8 +27,32 @@ nav button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-nav button:hover {
-    background-color: #494973;
+#left-btn {
+    background-image: linear-gradient(to right, #222337, #20213f, #595ca0);
+}
+
+#right-btn {
+    background-image: linear-gradient(to left, #222337, #20213f, #595ca0);
+}
+
+#mid-btn {
+    background-image: radial-gradient(circle, #595ca0, #222337);
+}
+
+#left-btn:hover {
+    background-image: linear-gradient(to right, #343654, #42447d, #9094df);
+    box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
+
+}
+
+#right-btn:hover {
+    background-image: linear-gradient(to left, #343654, #42447d, #9094df);
+    box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
+
+}
+
+#mid-btn:hover {
+    background-image: radial-gradient(circle, #9094df, #343254);
     box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
 
 }
@@ -74,7 +98,8 @@ h2 {
 }
 
 footer {
-    box-shadow: 0px 0px 20px #62629a;
+    
+    box-shadow: 0px 0px 20px #8888d5;
     border-radius: 20px;
 }
 
