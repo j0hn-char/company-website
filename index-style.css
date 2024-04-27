@@ -6,7 +6,6 @@ p {
 
 body {
     background-image: radial-gradient(#4b4b4b,#1d1d1d, #060606);
-    /*background-image: radial-gradient(circle, #4d5183, #222337);*/
 }
 
 main {
@@ -121,5 +120,5 @@ video:hover {
 }
 
 h3 ~ p {
-    background-color: transparent;
+    font-style: italic;
 }
