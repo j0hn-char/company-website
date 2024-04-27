@@ -5,7 +5,7 @@ p {
 }
 
 body {
-    background-image: linear-gradient(#222337, #20213f, #595ca0);
+    background-image: radial-gradient(#6a6b73,#21222c, #15171c);
     /*background-image: radial-gradient(circle, #4d5183, #222337);*/
 }
 
@@ -28,32 +28,32 @@ nav button {
 }
 
 #left-btn {
-    background-image: linear-gradient(to right, #222337, #20213f, #595ca0);
+    background-image: linear-gradient(to right, #6a6b73,#21222c, #15171c);
 }
 
 #right-btn {
-    background-image: linear-gradient(to left, #222337, #20213f, #595ca0);
+    background-image: linear-gradient(to left, #6a6b73,#21222c, #15171c);
 }
 
 #mid-btn {
-    background-image: radial-gradient(circle, #595ca0, #222337);
+    background-image: radial-gradient(circle, #6a6b73, #15171c);
 }
 
 #left-btn:hover {
-    background-image: linear-gradient(to right, #343654, #42447d, #9094df);
-    box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
+    background-image: linear-gradient(to right, #93949f,#454651, #2d303b);
+    box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
 
 #right-btn:hover {
-    background-image: linear-gradient(to left, #343654, #42447d, #9094df);
-    box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
+    background-image: linear-gradient(to left, #93949f,#454651, #2d303b);
+    box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
 
 #mid-btn:hover {
-    background-image: radial-gradient(circle, #9094df, #343254);
-    box-shadow: 0 2px 15px 0 rgb(221, 202, 255), 0 2px 15px 0 rgb(221, 202, 255);
+    background-image: radial-gradient(circle, #93949f, #2d303b);
+    box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
 
@@ -79,7 +79,7 @@ button > a {
 h2 + div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2%;
-    background-color: #2e2e49;
+    background-color: #373742;
     border-radius: 15px;
 }
 
@@ -99,7 +99,7 @@ h2 {
 
 footer {
     
-    box-shadow: 0px 0px 20px #8888d5;
+    box-shadow: 0px 0px 20px #bcbcc0;
     border-radius: 20px;
 }
 
@@ -114,4 +114,8 @@ video {
 
 video:hover {
     box-shadow: 0 2px 40px 0 rgb(221, 202, 255), 0 2px 40px 0 rgb(221, 202, 255);
+}
+
+.space2 {
+    height: 5px;
 }
