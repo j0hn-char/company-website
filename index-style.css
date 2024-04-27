@@ -5,7 +5,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(#6a6b73,#21222c, #15171c);
+    background-image: radial-gradient(#4b4b4b,#1d1d1d, #060606);
     /*background-image: radial-gradient(circle, #4d5183, #222337);*/
 }
 
@@ -28,31 +28,31 @@ nav button {
 }
 
 #left-btn {
-    background-image: linear-gradient(to right, #6a6b73,#21222c, #15171c);
+    background-image: linear-gradient(to right, #37373b, #1b1b1c);
 }
 
 #right-btn {
-    background-image: linear-gradient(to left, #6a6b73,#21222c, #15171c);
+    background-image: linear-gradient(to left, #37373b, #1b1b1c);
 }
 
 #mid-btn {
-    background-image: radial-gradient(circle, #6a6b73, #15171c);
+    background-image: radial-gradient(circle, #37373b, #1b1b1c);
 }
 
 #left-btn:hover {
-    background-image: linear-gradient(to right, #93949f,#454651, #2d303b);
+    background-image: linear-gradient(to right, #48484d, #28282a);
     box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
 
 #right-btn:hover {
-    background-image: linear-gradient(to left, #93949f,#454651, #2d303b);
+    background-image: linear-gradient(to left,#48484d, #28282a);
     box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
 
 #mid-btn:hover {
-    background-image: radial-gradient(circle, #93949f, #2d303b);
+    background-image: radial-gradient(circle, #48484d, #28282a);
     box-shadow: 0 2px 15px 0 rgb(185, 185, 185), 0 2px 15px 0 rgb(206, 206, 206);
 
 }
@@ -77,9 +77,9 @@ button > a {
 }
 
 h2 + div {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2%;
-    background-color: #373742;
+    background-color: rgb(37, 37, 40);
     border-radius: 15px;
 }
 
@@ -113,9 +113,13 @@ video {
 }
 
 video:hover {
-    box-shadow: 0 2px 40px 0 rgb(221, 202, 255), 0 2px 40px 0 rgb(221, 202, 255);
+    box-shadow: 0 2px 40px 0 rgb(185, 185, 185), 0 2px 40px 0 rgb(206, 206, 206);
 }
 
 .space2 {
     height: 5px;
+}
+
+h3 ~ p {
+    background-color: transparent;
 }
