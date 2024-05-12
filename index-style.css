@@ -5,7 +5,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(#4b4b4b,#1d1d1d, #060606);
+    background-image: radial-gradient(#35353b,#171619, #060606);
 }
 
 main {
@@ -77,7 +77,8 @@ button > a {
 
 h2 + div {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 2%;
+    padding: 20px;
+    margin: 30px;
     background-color: rgb(37, 37, 40);
     border-radius: 15px;
 }
@@ -121,4 +122,8 @@ video:hover {
 
 h3 ~ p {
     font-style: italic;
+}
+
+.btnbox {
+    margin: 0px 40px;
 }
